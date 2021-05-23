@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Start Header Section */
+
+.logo h1 a {
+    font-size: 25px;
+
+}
+
+.menu {}
+
+.menu ul {}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+/* Start Banner Section */
+
+.banner-section {
+    background: url(./img/grop_pic.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+
+/* .banner-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+} */
+.banner-section h3 {
+    font-size: medium;
+    font-weight: normal;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.banner-section h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.banner-section h4 a {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.banner-section h4 a:hover {
+    color: #000;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px rgba(0, 0, 255, 0.616);
+}
+
+/* Start Video Section */
+
+.video-section {
+    margin-top: 50px;
+}
+
+.video {
+    width: 50%;
+}
+
+/* Start Artical Section */
+
+.article {
+    width: 50%;
+    margin-bottom: 60px;
+}
+
+.article h2 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.article p {
+    font-size: 12px;
+}
+
+/* Start Contact Section */
+
+.contact {
+    background: #ddd;
+}
+
+.contact h5 {
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Start Address Section */
+
+.address {
+    width: 50%;
+    margin-left: 30px;
+}
+
+/* Start Form Section */
+
+.contact-section {}
+
+.contact-section form {
+    width: 50%;
+    margin-left: -500px;
+}
+
+.contact-section form input {
+    display: block;
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.contact-section form input:hover {
+    box-shadow: 1px 2px 20px 0 #000;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.submit-btn {
+    font-size: 23px;
+    color: #000;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.submit-btn:hover {
+    box-shadow: 1px 2px 20px 0 #000;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+/* Start Footer Section */
+
+.footer p {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 0;
+}
